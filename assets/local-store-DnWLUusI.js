@@ -1,0 +1,1 @@
+var e=`sukkar.quest`,t={completedDays:[],ramadanMode:!1,startedAt:``};function n(e){if(typeof window>`u`)return null;try{let t=window.localStorage.getItem(e);return t?JSON.parse(t):null}catch{return null}}function r(e,t){if(!(typeof window>`u`))try{window.localStorage.setItem(e,JSON.stringify(t))}catch{}}function i(){return n(e)??t}function a(t){r(e,t)}export{a as n,i as t};
